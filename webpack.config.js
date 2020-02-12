@@ -34,4 +34,26 @@ module.exports = {
       // "vue$": "vue/dist/vue.js"
     }
   }
+  // devServer: {
+  //   historyApiFallback: true,
+  //   contentBase: "./",
+  //   quiet: true, //控制台中不输出打包的信息
+  //   noInfo: false,
+  //   hot: true, //开启热点
+  //   inline: true, //开启页面自动刷新
+  //   lazy: false, //不启动懒加载
+  //   progress: true, //显示打包的进度
+  //   watchOptions: {
+  //       aggregateTimeout: 300
+  //   },
+  //   port: '8080', //设置端口号
+  //   //其实很简单的，只要配置这个参数就可以了
+  //   proxy: {
+  //       "/v1": {
+  //           target: "http://api.cc1021.com",
+  //           pathRewrite: {"^/v1" : "/v1"},
+  //           changeOrigin: true
+  //       }
+  //   }
+  // }
 }
